@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Building</title>
+  </head>
+  <body>
+    <a href="newpage.html">New Page</a>
+    <br />
+    <a href="register.html">Register</a>
+    <!-- This is a comment -->
+    <form method="GET">
+      First Name: <input type="text" name="firstname" id="" /> <br />
+      Last Name: <input type="text" name="lastname" id="" /><br />
+      Email: <input type="email" name="email" id="" required /><br />
+      Password:
+      <input type="password" name="password" id="" minlength="6" /> <br />
+      Birthday:
+      <input type="date" name="birthday" id="" /> <br />
+      Gender: <br />
+      <input type="radio" name="gender" id="" value="male" />Male
+      <input type="radio" name="gender" id="" value="female" />Female
+      <input type="radio" name="gender" id="" value="others" />Others Pets:
+      <br />
+      <input type="checkbox" name="cats" id="" />Cats
+      <input type="checkbox" name="dogs" id="" />Dogs <br />
+      Cars: <br />
+      <select name="cars" id="">
+        <option value="Volvo">Volvo</option>
+        <option value="Audi">Audi</option>
+      </select>
+      <br />
+      <input type="submit" value="Register" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
