@@ -1,0 +1,25 @@
+* {
+  font-family: Rubik;
+}
+
+body {
+  /* background-color: gray; */
+}
+
+h1 {
+  color: crimson;
+  font-size: 50px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.ptag1 {
+  color: blueviolet;
+}
+
+#ptag2 {
+  color: cornflowerblue;
+}
