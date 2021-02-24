@@ -1,5 +1,5 @@
 * {
-  font-family: Rubik;
+  font-family: "Rubik";
 }
 
 body {
@@ -22,4 +22,38 @@ li {
 
 #ptag2 {
   color: cornflowerblue;
+}
+
+.boxmodel {
+  border: 5px solid greenyellow;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  height: 450px;
+  width: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  font-size: 3em;
+  border-bottom: 3px solid crimson;
+}
+
+.col-sm {
+  background-color: gray;
+  border: 2px solid crimson;
 }
