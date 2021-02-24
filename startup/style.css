@@ -11,6 +11,15 @@ html {
   background-size: cover;
 }
 
+.fancyline {
+  border-bottom: 5px solid #f05f44;
+  border-radius: 5px;
+  opacity: 1;
+  width: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-size: 3rem;
   color: aliceblue;
@@ -18,4 +27,13 @@ h1 {
 
 .btn {
   border-radius: 300px;
+  font-weight: 700;
+}
+
+.btn-outline-danger:hover {
+  border-width: 4px;
+}
+
+.buffer {
+  height: 8rem;
 }
